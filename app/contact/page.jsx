@@ -110,17 +110,17 @@ export default function ContactPage() {
             <div className="mt-10 border-t pt-8 text-gray-700 space-y-4">
               <div>
                 <p className="font-semibold text-[#C8A165]">📍 Location</p>
-                <p>First Floor, Electronic City Metro Station, Noida Sector 63</p>
+                <p>Lucknow 474 km Stone, NH 24, Mahagunpuram, Ghaziabad, Uttar Pradesh 201002</p>
               </div>
 
               <div>
                 <p className="font-semibold text-[#C8A165]">📞 Phone</p>
-                <p>+91 73039 31901</p>
+                <p>+91 99999 98811</p>
               </div>
 
               <div>
                 <p className="font-semibold text-[#C8A165]">✉ Email</p>
-                <p>sales@jubileebanquets.com</p>
+                <p>Tanushreegrandbanquets@gmail.com</p>
               </div>
             </div>
 
