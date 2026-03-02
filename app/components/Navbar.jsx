@@ -85,7 +85,7 @@ export default function Navbar() {
 
           {/* LOGO */}
           <Link href="/">
-            <Image src="/logo.webp" alt="logo" width={150} height={60} />
+            <Image src="/Logo (1).png" alt="logo" width={150} height={60} />
           </Link>
 
           {/* DESKTOP MENU */}
