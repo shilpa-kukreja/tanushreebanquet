@@ -12,7 +12,7 @@ const blogs = [
     id: 1,
     title: "Best Wedding Farmhouse in Ghaziabad for Grand Open Air Celebrations",
     date: "March 10, 2026",
-    image: "/tanushree-banner3.jpg",
+    image: "/6thOurBlog1.jpg",
     excerpt:
       "When it comes to planning a dream wedding, choosing the right venue defines everything. If you are searching for the best wedding farmhouse in Ghaziabad, Tanushree Farm & Palace offers an unmatched blend of lush green landscapes, expansive space, and refined hospitality on NH24.A Grand Open Air Wedding ExperienceModern couples are increasingly choosing open air wedding venues in Ghaziabad for their flexibility and visual appeal.At Tanushree Farm & Palace, the sprawling lawn accommodates up to 1500 guests, making it ideal for lavish wedding celebrations, receptions, and sangeet ceremonies.The beautifully maintained green lawn provides a natural backdrop for mandap setups, grand stage décor, and elegant seating arrangements.Prime Location on NH24 Conveniently located on NH24 in East Ghaziabad, the venue offers seamless connectivity for guests coming from Delhi, Noida, and surrounding NCR areas.Ample parking for 200 cars ensures comfort and ease for large gatherings.Complete Wedding Infrastructure From mandap setup and catering to power backup and stage arrangements, every detail is thoughtfully managed.Whether you prefer in house décor or your own decorator, flexibility allows you to personalize your big day effortlessly.If you are looking for a luxury wedding venue in Ghaziabad that combines scale, elegance, and flawless execution, Tanushree Farm & Palace stands as a distinguished choice.",
   },
@@ -20,7 +20,7 @@ const blogs = [
   id: 2,
     title: "Why Farmhouse Weddings in Ghaziabad Are Trending in 2026",
       date: "February 28, 2026",
-        image: "/tanushree-banner2.webp",
+        image: "/6thOurBlog2.jpg",
           excerpt:
   "The charm of farmhouse weddings in Ghaziabad continues to grow as couples seek venues that offer space, natural beauty, and creative freedom.The Rise of Outdoor Wedding Venues Unlike enclosed banquet halls, outdoor wedding lawns provide expansive layouts for décor experimentation, floral installations, and immersive lighting. Farmhouse venues allow couples to design personalized celebrations under open skies.Ideal for Big Fat Indian Weddings With guest lists often crossing 800 to 1200 attendees, large marriage lawns in Ghaziabad are becoming the preferred option. Tanushree Farm & Palace accommodates grand wedding gatherings while maintaining elegance and organization.Perfect for Every Wedding Function From haldi and mehendi to engagement, sangeet, wedding ceremony, and reception, farmhouse venues provide flexibility for multiple events within one location.Choosing a farmhouse wedding venue on NH24 ensures accessibility without compromising on grandeur.If you envision a celebration that feels majestic, vibrant, and beautifully curated, an open air farmhouse wedding is the perfect choice.",
   },
@@ -28,7 +28,7 @@ const blogs = [
   id: 3,
     title: "Top Corporate Event Venue in Ghaziabad for Conferences and Product Launches",
       date: "January 15, 2026",
-        image: "/tanushree-banner.webp",
+        image: "/6thOurBlog3.jpg",
           excerpt:
   "Corporate gatherings demand professionalism, infrastructure, and seamless coordination. Finding the right corporate event venue in Ghaziabad can significantly influence the success of your event.Spacious Venue for Large Corporate Gatherings Tanushree Farm & Palace offers a versatile event space suitable for conferences, annual meets, product launches, and corporate celebrations. The expansive layout allows stage setup, branding installations, and structured seating arrangements.Advanced Facilities for Business Events With professional sound systems, lighting arrangements, reliable power backup, and ample parking, the venue supports smooth execution of corporate programs.Convenient Location for NCR Businesses Located on NH24, the venue is easily accessible for companies operating across Delhi NCR. This makes it a practical yet premium choice for business events.For organizations seeking a spacious and elegant corporate event venue in Ghaziabad, Tanushree Farm & Palace provides both functionality and sophistication.",
   },
