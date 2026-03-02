@@ -29,7 +29,7 @@ export default function AboutPage() {
               transition={{ duration: 0.8 }}
               className="text-4xl md:text-6xl font-serif text-white font-semibold"
             >
-              About Jubilee Convention & Banquet
+              About Tanushree Farm & Palace
             </motion.h1>
 
             <motion.p
@@ -38,8 +38,7 @@ export default function AboutPage() {
               transition={{ duration: 1 }}
               className="mt-6 text-lg text-gray-300 leading-relaxed"
             >
-              Where elegance meets celebration. We create unforgettable
-              experiences with luxury, comfort, and flawless execution.
+              Where grandeur meets open skies. We craft unforgettable celebrations with refined hospitality, lush green surroundings, and flawless execution.
             </motion.p>
           </div>
         </section>
@@ -58,17 +57,11 @@ export default function AboutPage() {
             </h2>
 
             <p className="text-gray-400 leading-relaxed mb-6">
-              Jubilee Convention & Banquet was founded with a vision to
-              create a space where celebrations turn into lifelong memories.
-              Designed with sophistication and grandeur, our venue blends
-              luxury interiors with world-class hospitality.
+              Tanushree Farm & Palace was envisioned as a grand open air destination where celebrations unfold beneath expansive skies and timeless elegance. Created to host life’s most cherished milestones, our venue blends lush green landscapes with refined infrastructure and warm, attentive hospitality.
             </p>
 
             <p className="text-gray-400 leading-relaxed">
-              From weddings and corporate events to cultural and social
-              gatherings, we deliver excellence with attention to every
-              detail. Our team ensures every event is perfectly executed
-              with elegance and precision.
+              From lavish weddings and regal receptions to corporate gatherings and cultural festivities, we curate experiences defined by scale, sophistication, and seamless execution. Every celebration here is thoughtfully orchestrated, ensuring your special moments are not just hosted, but beautifully remembered.
             </p>
           </motion.div>
 
@@ -100,23 +93,23 @@ export default function AboutPage() {
               {[
                 {
                   icon: <Sparkles size={28} />,
-                  title: "Luxury",
-                  desc: "Elegant interiors and premium services for unforgettable celebrations.",
+                  title: "Grandeur",
+                  desc: "Expansive green landscapes and refined arrangements designed to create majestic celebrations that leave lasting impressions.",
                 },
                 {
                   icon: <Users size={28} />,
-                  title: "Hospitality",
-                  desc: "Warm, professional service that makes every guest feel special.",
+                  title: "Warm Hospitality",
+                  desc: "Thoughtful, attentive service delivered with grace, ensuring every guest feels welcomed, valued, and cared for.",
                 },
                 {
                   icon: <Award size={28} />,
-                  title: "Excellence",
-                  desc: "Attention to detail and flawless execution for every event.",
+                  title: "Precision",
+                  desc: "Meticulous planning and seamless execution that transform every vision into a flawlessly orchestrated experience.",
                 },
                 {
                   icon: <Building2 size={28} />,
-                  title: "Versatility",
-                  desc: "Perfect venue for weddings, corporate, and social events.",
+                  title: "Celebration Versatility",
+                  desc: "An exceptional destination crafted to host weddings, corporate gatherings, and cultural festivities with equal elegance.",
                 },
               ].map((item, index) => (
                 <motion.div
@@ -154,16 +147,15 @@ export default function AboutPage() {
             className="relative z-10"
           >
             <h2 className="text-3xl md:text-4xl font-serif text-gray-900 mb-6">
-              Let’s Create Something Beautiful Together
+              Let’s Curate Your Grand Celebration
             </h2>
 
             <p className="text-gray-400 mb-8">
-              Book your next event at Jubilee Convention & Banquet and
-              experience luxury like never before.
+              Reserve your special day at Tanushree Farm & Palace and experience open air elegance, refined hospitality, and seamless execution like never before.
             </p>
 
             <button className="px-10 py-3 bg-[#C8A165] text-black font-medium rounded-full hover:bg-[#b8904f] transition duration-300">
-              Contact Us
+              Book Your Date
             </button>
           </motion.div>
         </section>

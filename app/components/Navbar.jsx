@@ -62,10 +62,10 @@ export default function Navbar() {
       <div className="hidden md:flex justify-between items-center px-6 lg:px-20 py-2 text-sm bg-black text-white">
         <div className="flex gap-6">
           <span className="flex items-center gap-2">
-            <Phone size={14} /> +91 98765 43210
+            <Phone size={14} /> +91 99999 98811
           </span>
           <span className="flex items-center gap-2">
-            <Mail size={14} /> info@yourdomain.com
+            <Mail size={14} /> Tanushreegrandbanquets@gmail.com
           </span>
         </div>
         <span className="tracking-widest text-xs">

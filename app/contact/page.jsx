@@ -61,15 +61,14 @@ export default function ContactPage() {
           </p>
 
           <h1 className="text-4xl md:text-6xl font-serif font-light mb-8">
-            Let’s Plan Your{" "}
+            Let’s Design Your{" "}
             <span className="text-[#C8A165] font-medium">
-              Perfect Celebration
+              Grand Celebration
             </span>
           </h1>
 
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Whether it’s a wedding, corporate gathering, or social celebration,
-            our team is here to create an unforgettable experience for you.
+            Whether it’s a wedding, corporate gathering, or cherished family occasion, our team is ready to transform your vision into an elegant and unforgettable experience.
           </p>
         </motion.div>
       </section>

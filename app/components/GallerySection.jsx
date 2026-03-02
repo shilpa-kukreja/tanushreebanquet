@@ -31,15 +31,15 @@ export default function GallerySection() {
         {/* Image Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-14">
           {[
-            "/tanushree-banner.webp",
-            "/tanushree-banner2.webp",
-            "/tanushree-banner3.jpg",
-            "/tanushree-banner4.jpg",
-            "/tanushree-banner5.avif",
-            "/tanushree-banner.webp",
-            "/tanushree-banner2.webp",
-            "/tanushree-banner3.jpg",
-            "/tanushree-banner4.jpg",
+            "/5thEvents1.jpg",
+            "/5thEvents2.jpg",
+            "/5thEvents3.jpg",
+            "/5thEvents4.jpg",
+            "/5thEvents5.jpg",
+            "/5thEvents6.jpg",
+            "/5thEvents7.jpg",
+            "/5thEvents8.jpg",
+            "/5thEvents9.jpg",
           ].map((src, index) => (
             <div
               key={index}

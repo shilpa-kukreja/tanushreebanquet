@@ -5,21 +5,21 @@ import Image from "next/image";
 const occasions = [
   {
     title: "Corporate Events",
-    image: "/tanushree-banner3.jpg",
+    image: "/3rdOccasion1.jpg",
     description:
-      "Host impactful conferences, meetings, and corporate celebrations in a refined and sophisticated setting.",
+      "Host powerful conferences, executive meetings, product launches, and corporate galas within an expansive setting designed for scale, sophistication, and seamless execution.",
   },
   {
-    title: "Social Events",
-    image: "/tanushree-banner4.jpg",
+    title: "Social Celebrations",
+    image: "/3rdOccasion2.jpg",
     description:
-      "Celebrate birthdays, anniversaries, and private gatherings with elegance and flawless hospitality.",
+      "Mark birthdays, anniversaries, family gatherings, and private soirées amidst lush open spaces crafted to elevate every intimate and grand celebration alike.",
   },
   {
-    title: "Cultural Events",
-    image: "/tanushree-banner3.jpg",
+    title: "Cultural Celebrations",
+    image: "/3rdOccasion3.jpg",
     description:
-      "Experience vibrant cultural celebrations curated with grandeur and artistic excellence.",
+      "Experience traditional ceremonies and vibrant festivities thoughtfully curated with graceful décor, spacious arrangements, and timeless grandeur.",
   },
 ];
 
@@ -34,7 +34,7 @@ export default function OccasionLuxury() {
         </p>
 
         <h2 className="text-4xl lg:text-5xl font-serif font-semibold text-[#b68c3d] mb-10">
-          Celebrate Every Occasion in Style
+          Celebrate Every Occasion with Distinction
         </h2>
 
         {/* Cards */}

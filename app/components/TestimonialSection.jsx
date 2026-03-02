@@ -10,22 +10,34 @@ import { Star } from "lucide-react";
 export default function TestimonialSection() {
   const testimonials = [
     {
-      name: "Sumit Kumar",
+      name: "Riya & Ankit",
       time: "8 months ago",
       review:
-        "We hosted our sister’s engagement here and couldn’t have asked for a better venue. The hall is beautiful, staff is cooperative, and everything was perfectly managed.",
+        "Tanushree Farm & Palace turned our wedding into something truly magical. The open lawn looked breathtaking under the evening lights, and every arrangement was handled flawlessly. Our guests are still talking about the ambience and hospitality.",
     },
     {
-      name: "Navneet Singh",
+      name: "Mr. & Mrs. Malhotra",
       time: "8 months ago",
       review:
-        "The interiors are elegant and classy, and the staff is well-trained and polite. They handled our event really well. Highly recommended!",
+        "We hosted our daughter’s engagement here and the experience was exceptional. From décor coordination to catering, everything was managed with such professionalism. The team ensured we enjoyed every moment stress free.",
     },
     {
-      name: "Virender Singh",
+      name: "Karan Mehta",
       time: "8 months ago",
       review:
-        "I’ve been to many banquets, but Jubilee stood out—not just for the ambience, but for the heart behind the service. Truly premium experience.",
+        "With over 1000 guests attending our reception, we needed a venue that could handle scale without compromising elegance. Tanushree delivered beautifully. Spacious, well managed, and absolutely stunning.",
+    },
+      {
+      name: "Rahul Sharma, Event Director",
+      time: "8 months ago",
+      review:
+        "We organized a corporate product launch at Tanushree Farm & Palace and the setup was impressive. The stage arrangements, sound system, and overall coordination reflected true professionalism. Highly recommended for premium corporate events.",
+    },
+    {
+      name: "Neha Verma",
+      time: "8 months ago",
+      review:
+        "Our family function felt grand yet intimate. The green lawn, the mandap setup, and the hospitality created the perfect traditional atmosphere. It was everything we had envisioned.",
     },
   ];
 
@@ -119,7 +131,7 @@ export default function TestimonialSection() {
                     </div>
 
                     {/* Review */}
-                    <p className="text-gray-600 text-sm leading-relaxed">
+                    <p className="text-gray-600 line-clamp-4 text-sm leading-relaxed">
                       {item.review}
                     </p>
 

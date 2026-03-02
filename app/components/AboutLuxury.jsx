@@ -9,12 +9,11 @@ export default function AboutLuxury() {
         
         {/* Left Image */}
         <div className="relative w-full h-[400px] lg:h-[500px] rounded-lg overflow-hidden shadow-xl">
-          <Image
-            src="/tanushree-banner2.webp" // Replace with your image
+          <img
+            src="/2ndAboutUs.jpg" // Replace with your image
             alt="Luxury Banquet Hall"
-            fill
-            priority
-            className="object-cover"
+           
+            className="object-cover w-full "
           />
         </div>
 
@@ -25,30 +24,21 @@ export default function AboutLuxury() {
           </p>
 
           <h2 className="text-4xl lg:text-5xl font-serif font-semibold text-[#b68c3d] leading-tight mb-6">
-            Tanushree ~ Convention & Banquet Ghaziabad
+            Farm & Palace Ghaziabad
           </h2>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            Founded by pioneers in the real estate and hospitality industry,
-            Tanushree Convention & Banquet is a symbol of elegance and grandeur.
-            Our luxury banquet halls in Noida are thoughtfully designed to
-            deliver unforgettable experiences with exquisite interiors,
-            premium services, and world-class hospitality.
+            Rooted in excellence and inspired by celebration, Tanushree Farm & Palace is a distinguished destination where elegance meets open air grandeur. Designed for those who believe every occasion deserves scale, beauty, and perfection, our venue reflects timeless charm blended with modern sophistication.
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-8">
-            Strategically located in the heart of the city with seamless
-            connectivity, Tanushree is the perfect destination for weddings,
-            receptions, corporate events, and private celebrations. We combine
-            fine catering, impeccable service, and sophisticated ambiance to
-            create truly magical moments.
+            Nestled in a prime city location with seamless accessibility, Tanushree offers an expansive green landscape ideal for weddings, receptions, corporate gatherings, and private festivities. 
           </p>
 
           {/* Luxury Quote */}
           <div className="relative pl-8 border-l-4 border-[#b68c3d] mb-8">
             <p className="text-2xl italic text-gray-800 font-light">
-              “Life’s special moments deserve magic —
-              create yours with Tanushree.”
+             From curated decor to exceptional hospitality and refined culinary experiences, we craft celebrations that feel effortless, grand, and truly unforgettable.
             </p>
           </div>
 

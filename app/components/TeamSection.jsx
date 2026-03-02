@@ -18,8 +18,8 @@ export default function TeamSection() {
 
         {/* Main Heading */}
         <h2 className="mt-4 text-3xl md:text-5xl font-serif font-semibold text-gray-900 leading-tight">
-          Our Professional Team <br className="hidden md:block" /> 
-          & Premium Facilities
+         Our Expert Team<br className="hidden md:block" /> 
+          & Refined Event Facilities
         </h2>
 
         {/* Elegant Divider */}
@@ -27,11 +27,7 @@ export default function TeamSection() {
 
         {/* Description */}
         <p className="max-w-3xl mx-auto text-gray-600 leading-relaxed text-base md:text-lg">
-          At Jubilee, our team of professionals is dedicated to crafting 
-          experiences that surpass your dreams. From event conceptualization 
-          to flawless execution, every detail is handled with precision, 
-          passion, and perfection. Behind the scenes, our administration and 
-          maintenance teams ensure seamless coordination and world-class service.
+          At Tanushree Farm & Palace, our experienced professionals are devoted to transforming your vision into an extraordinary celebration. From initial planning to flawless execution, every element is managed with dedication, elegance, and meticulous attention to detail. Behind every grand event stands a coordinated team ensuring seamless arrangements, impeccable hospitality, and a truly elevated experience.
         </p>
 
         {/* Image Card */}
@@ -41,7 +37,7 @@ export default function TeamSection() {
 
           <div className="relative rounded-xl overflow-hidden shadow-2xl border border-[#E8E1D8]">
             <Image
-              src="/tanushree-banner5.avif" 
+              src="/4thOurTeam.jpg" 
               alt="Professional Team"
               width={1200}
               height={800}
@@ -60,27 +56,27 @@ export default function TeamSection() {
               Expert Event Management
             </h3>
             <ul className="space-y-3 text-gray-600">
-              <li>• Professional planning & coordination</li>
-              <li>• Charismatic event hostesses</li>
-              <li>• Custom décor & theme styling</li>
-              <li>• Award-winning culinary team</li>
-              <li>• DJ & entertainment services</li>
-              <li>• Personalized event collaterals</li>
+              <li>• Strategic planning and seamless end to end coordination</li>
+              <li>• Graceful event hosts and guest management professionals</li>
+              <li>• Bespoke décor concepts and signature theme styling</li>
+              <li>• Master chefs crafting refined vegetarian and non vegetarian menus</li>
+              <li>• Live entertainment, DJ setups, and curated performance experiences</li>
+              <li>• Personalized event elements tailored to your celebration story</li>
             </ul>
           </div>
 
           {/* Box 2 */}
           <div className="bg-white p-8 rounded-2xl shadow-lg border border-[#E8E1D8] hover:shadow-2xl transition duration-500">
             <h3 className="text-xl font-semibold text-gray-900 mb-4">
-              Premium Facilities
+              World Class Facilities
             </h3>
             <ul className="space-y-3 text-gray-600">
-              <li>• State-of-the-art lighting & AV setup</li>
-              <li>• PA system & CCTV coverage</li>
-              <li>• Elegant stage & ramp settings</li>
-              <li>• Ergonomic seating arrangements</li>
-              <li>• Reliable backup power system</li>
-              <li>• Ample parking with valet service</li>
+              <li>• Advanced lighting design and premium audio visual infrastructure</li>
+              <li>• Professional sound systems with comprehensive security coverage</li>
+              <li>• Grand stage, mandap, and elegant entry ramp arrangements</li>
+              <li>• Comfortable and thoughtfully planned seating layouts</li>
+              <li>• Uninterrupted power backup for flawless celebrations</li>
+              <li>• Spacious private parking accommodating large guest gatherings</li>
             </ul>
           </div>
 

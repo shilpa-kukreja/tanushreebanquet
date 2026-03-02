@@ -20,7 +20,7 @@ export default function Footer() {
         {/* LOGO & ABOUT */}
         <div>
           <h2 className="text-3xl font-serif text-[#C8A165] font-semibold tracking-wide">
-            Jubilee
+            Tanushree
           </h2>
           <p className="text-sm mt-2 text-gray-400">
             Convention & Banquet
@@ -82,19 +82,18 @@ export default function Footer() {
           <div className="space-y-4 text-sm text-gray-400">
             <div className="flex items-start gap-3">
               <Phone size={16} className="text-[#C8A165] mt-1" />
-              <span>+91 73039 31901</span>
+              <span>+91 99999 98811</span>
             </div>
 
             <div className="flex items-start gap-3">
               <Mail size={16} className="text-[#C8A165] mt-1" />
-              <span>sales@jubileebanquets.com</span>
+              <span>Tanushreegrandbanquets@gmail.com</span>
             </div>
 
             <div className="flex items-start gap-3">
               <MapPin size={16} className="text-[#C8A165] mt-1" />
               <span>
-                First Floor, Electronic City Metro Station,
-                Noida Sector 63, Uttar Pradesh 201309
+                Lucknow 474 km Stone, NH 24, Mahagunpuram, Ghaziabad, Uttar Pradesh 201002
               </span>
             </div>
           </div>
@@ -129,7 +128,7 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-6 lg:px-12 py-6 flex flex-col md:flex-row items-center justify-between gap-4">
 
           <p className="text-sm text-gray-500">
-            © {new Date().getFullYear()} Jubilee Convention & Banquet. All Rights Reserved.
+            © {new Date().getFullYear()} Tanushree Convention & Banquet. All Rights Reserved.
           </p>
 
           {/* SOCIAL ICONS */}
