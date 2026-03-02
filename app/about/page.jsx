@@ -1,0 +1,176 @@
+"use client";
+
+import { motion } from "framer-motion";
+import { Award, Users, Sparkles, Building2 } from "lucide-react";
+import Image from "next/image";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+
+export default function AboutPage() {
+  return (
+    <>
+      <Navbar />
+
+      <main className=" text-gray-300">
+
+        {/* HERO SECTION */}
+        <section className="relative h-[70vh] flex items-center justify-center text-center overflow-hidden">
+          <Image
+            src="/tanushree-banner.webp" // Add your banquet image in public folder
+            alt="Banquet Hall"
+            fill
+            className="object-cover "
+          />
+
+          <div className="relative z-10 max-w-3xl px-6">
+            <motion.h1
+              initial={{ opacity: 0, y: 40 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              className="text-4xl md:text-6xl font-serif text-white font-semibold"
+            >
+              About Jubilee Convention & Banquet
+            </motion.h1>
+
+            <motion.p
+              initial={{ opacity: 0, y: 40 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1 }}
+              className="mt-6 text-lg text-gray-300 leading-relaxed"
+            >
+              Where elegance meets celebration. We create unforgettable
+              experiences with luxury, comfort, and flawless execution.
+            </motion.p>
+          </div>
+        </section>
+
+        {/* STORY SECTION */}
+        <section className="py-20 max-w-7xl mx-auto px-6 lg:px-12 grid lg:grid-cols-2 gap-16 items-center">
+
+          <motion.div
+            initial={{ opacity: 0, x: -60 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+          >
+            <h2 className="text-3xl font-serif text-black mb-6">
+              Our Story
+            </h2>
+
+            <p className="text-gray-400 leading-relaxed mb-6">
+              Jubilee Convention & Banquet was founded with a vision to
+              create a space where celebrations turn into lifelong memories.
+              Designed with sophistication and grandeur, our venue blends
+              luxury interiors with world-class hospitality.
+            </p>
+
+            <p className="text-gray-400 leading-relaxed">
+              From weddings and corporate events to cultural and social
+              gatherings, we deliver excellence with attention to every
+              detail. Our team ensures every event is perfectly executed
+              with elegance and precision.
+            </p>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, x: 60 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="relative h-[400px] rounded-2xl overflow-hidden"
+          >
+            <Image
+              src="/tanushree-banner2.webp" // Add another banquet image in public folder
+              alt="Our Story"
+              fill
+              className="object-cover"
+            />
+          </motion.div>
+        </section>
+
+        {/* VALUES SECTION */}
+        <section className="py-20 bg-[#111614]">
+          <div className="max-w-7xl mx-auto px-6 lg:px-12 text-center">
+            <h2 className="text-3xl font-serif text-white mb-12">
+              Our Core Values
+            </h2>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+
+              {[
+                {
+                  icon: <Sparkles size={28} />,
+                  title: "Luxury",
+                  desc: "Elegant interiors and premium services for unforgettable celebrations.",
+                },
+                {
+                  icon: <Users size={28} />,
+                  title: "Hospitality",
+                  desc: "Warm, professional service that makes every guest feel special.",
+                },
+                {
+                  icon: <Award size={28} />,
+                  title: "Excellence",
+                  desc: "Attention to detail and flawless execution for every event.",
+                },
+                {
+                  icon: <Building2 size={28} />,
+                  title: "Versatility",
+                  desc: "Perfect venue for weddings, corporate, and social events.",
+                },
+              ].map((item, index) => (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, y: 40 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ delay: index * 0.2 }}
+                  viewport={{ once: true }}
+                  className="bg-[#0f1412] p-8 rounded-2xl border border-gray-800 hover:border-[#C8A165] transition duration-300"
+                >
+                  <div className="text-[#C8A165] mb-4 flex justify-center">
+                    {item.icon}
+                  </div>
+                  <h3 className="text-white font-semibold mb-3">
+                    {item.title}
+                  </h3>
+                  <p className="text-sm text-gray-400">
+                    {item.desc}
+                  </p>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* CTA SECTION */}
+        <section className="py-24 text-center relative overflow-hidden">
+          <div className="absolute inset-0 bg-gradient-to-r from-[#C8A165]/20 to-transparent blur-3xl"></div>
+
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.7 }}
+            viewport={{ once: true }}
+            className="relative z-10"
+          >
+            <h2 className="text-3xl md:text-4xl font-serif text-gray-900 mb-6">
+              Let’s Create Something Beautiful Together
+            </h2>
+
+            <p className="text-gray-400 mb-8">
+              Book your next event at Jubilee Convention & Banquet and
+              experience luxury like never before.
+            </p>
+
+            <button className="px-10 py-3 bg-[#C8A165] text-black font-medium rounded-full hover:bg-[#b8904f] transition duration-300">
+              Contact Us
+            </button>
+          </motion.div>
+        </section>
+
+      </main>
+
+      <Footer />
+    </>
+  );
+}
