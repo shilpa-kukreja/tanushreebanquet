@@ -6,12 +6,12 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 const images = [
-    "/5thEvents1.jpg",
-    "/5thEvents2.jpg",
-    "/5thEvents3.jpg",
-    "/5thEvents4.jpg",
-    "/5thEvents5.jpg",
-    "/5thEvents6.jpg",
+    "/image1 (1).jpeg",
+    "/image1 (2).jpeg",
+    "/image1 (3).jpeg",
+    "/image1 (4).jpeg",
+    "/image1 (5).jpeg",
+    "/image1 (6).jpeg",
     "/5thEvents7.jpg",
     "/5thEvents8.jpg",
     "/5thEvents9.jpg",
