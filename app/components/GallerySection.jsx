@@ -31,12 +31,12 @@ export default function GallerySection() {
         {/* Image Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-14">
           {[
-            "/5thEvents1.jpg",
-            "/5thEvents2.jpg",
-            "/5thEvents3.jpg",
-            "/5thEvents4.jpg",
-            "/5thEvents5.jpg",
-            "/5thEvents6.jpg",
+            "/image1 (1).jpeg",
+            "/image1 (2).jpeg",
+            "/image1 (3).jpeg",
+            "/image1 (4).jpeg",
+            "/image1 (5).jpeg",
+            "/image1 (6).jpeg",
             "/5thEvents7.jpg",
             "/5thEvents8.jpg",
             "/5thEvents9.jpg",
