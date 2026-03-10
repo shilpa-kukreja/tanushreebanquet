@@ -65,7 +65,7 @@ export default function Navbar() {
             <Phone size={14} /> +91 99999 98811
           </span>
           <span className="flex items-center gap-2">
-            <Mail size={14} /> Tanushreegrandbanquets@gmail.com
+            <Mail size={14} /> tanushreegrandbanquets@gmail.com
           </span>
         </div>
         <span className="tracking-widest text-xs">

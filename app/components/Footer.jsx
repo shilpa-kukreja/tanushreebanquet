@@ -82,12 +82,12 @@ export default function Footer() {
           <div className="space-y-4 text-sm text-gray-400">
             <div className="flex items-start gap-3">
               <Phone size={16} className="text-[#C8A165] mt-1" />
-              <span>+91 98100 42296(Vivek mohan)</span>
+              <span>+91 98100 42296 (Vivek mohan)</span>
             </div>
 
             <div className="flex items-start gap-3">
               <Mail size={16} className="text-[#C8A165] mt-1" />
-              <span>Tanushreegrandbanquets@gmail.com</span>
+              <span>tanushreegrandbanquets@gmail.com</span>
             </div>
 
             <div className="flex items-start gap-3">
