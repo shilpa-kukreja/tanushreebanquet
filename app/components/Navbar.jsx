@@ -62,7 +62,7 @@ export default function Navbar() {
       <div className="hidden md:flex justify-between items-center px-6 lg:px-20 py-2 text-sm bg-black text-white">
         <div className="flex gap-6">
           <span className="flex items-center gap-2">
-            <Phone size={14} /> +91 99999 98811
+            <Phone size={14} /> +91 98100 42296 (Vivek mohan)
           </span>
           <span className="flex items-center gap-2">
             <Mail size={14} /> tanushreegrandbanquets@gmail.com
