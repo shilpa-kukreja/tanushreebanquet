@@ -23,7 +23,7 @@ export default function Footer() {
             Tanushree
           </h2>
           <p className="text-sm mt-2 text-gray-400">
-            Convention & Banquet
+            Grand Banquet & Farms
           </p>
 
           <p className="mt-6 text-sm leading-relaxed text-gray-400">
@@ -82,7 +82,7 @@ export default function Footer() {
           <div className="space-y-4 text-sm text-gray-400">
             <div className="flex items-start gap-3">
               <Phone size={16} className="text-[#C8A165] mt-1" />
-              <span>+91 98100 42296</span>
+              <span>+91 98100 42296(Dr. Vivek Mishra)</span>
             </div>
 
             <div className="flex items-start gap-3">

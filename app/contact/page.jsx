@@ -27,11 +27,22 @@ export default function ContactPage() {
   };
 
   // Frontend Only Submit (No API)
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setLoading(true);
+const handleSubmit = async (e) => {
+  e.preventDefault();
+  setLoading(true);
 
-    setTimeout(() => {
+  try {
+    const res = await fetch("/api/send-mail", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    });
+
+    const data = await res.json();
+
+    if (data.success) {
       setSuccess(true);
       setFormData({
         name: "",
@@ -40,9 +51,16 @@ export default function ContactPage() {
         eventType: "",
         message: "",
       });
-      setLoading(false);
-    }, 1000);
-  };
+    } else {
+      alert("Error sending email");
+    }
+  } catch (error) {
+    console.log(error);
+    alert("Something went wrong");
+  }
+
+  setLoading(false);
+};
 
   return (
     <div className="min-h-screen bg-white">
