@@ -25,8 +25,8 @@ const defaultEventsLinks = [
 
 const defaultSocialLinks = [
   { icon: Facebook, href: "https://www.facebook.com/pages/Tanushree-Farm-House-Ghaziabad/345933495432211", label: "Facebook" },
-  // { icon: Instagram, href: "#", label: "Instagram" },
-  { icon: Youtube, href: "#", label: "Youtube" },
+  { icon: Instagram, href: "https://www.instagram.com/explore/locations/1021421679/tanushree-farm-house-ghaziabad/?hl=en", label: "Instagram" },
+  { icon: Youtube, href: "https://youtu.be/nk9CmFyY8IY?si=jc3freGMVoOGN0zd", label: "Youtube" },
 ];
 
 const defaultContactInfo = [
