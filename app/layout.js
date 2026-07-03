@@ -47,6 +47,9 @@ export const metadata = {
   title: "Best Banquet Hall in Ghaziabad | Tanushree Farm & Palace",
   description:
     "Tanushree Farm & Palace is the best banquet hall in Ghaziabad for weddings, receptions & corporate events. Located on NH24 with space for 1500+ guests. Book now!",
+  alternates: {
+    canonical: 'https://tanushreegrandbanquets.com',
+  },
 };
 
 const schemaData = {
