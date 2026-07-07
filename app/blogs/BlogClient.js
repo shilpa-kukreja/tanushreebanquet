@@ -17,33 +17,7 @@ const blogs = [
     category: "Venue Guide",
     excerpt: "Planning a wedding, reception, or milestone celebration comes with one decision that shapes everything else—the venue. This comprehensive guide walks you through everything to consider when choosing a banquet hall in Ghaziabad."
   },
-  {
-    id: 2,
-    title: "Best Wedding Farmhouse in Ghaziabad for Grand Open Air Celebrations",
-    date: "March 10, 2026",
-    readTime: "6 min read",
-    image: "/6thOurBlog1.jpg",
-    category: "Wedding",
-    excerpt: "When it comes to planning a dream wedding, choosing the right venue defines everything. If you are searching for the best wedding farmhouse in Ghaziabad, Tanushree Farm & Palace offers an unmatched blend of lush green landscapes, expansive space, and refined hospitality on NH24."
-  },
-  {
-    id: 3,
-    title: "Why Farmhouse Weddings in Ghaziabad Are Trending in 2026",
-    date: "February 28, 2026",
-    readTime: "5 min read",
-    image: "/6thOurBlog2.jpg",
-    category: "Wedding",
-    excerpt: "The charm of farmhouse weddings in Ghaziabad continues to grow as couples seek venues that offer space, natural beauty, and creative freedom for their special day."
-  },
-  {
-    id: 4,
-    title: "Top Corporate Event Venue in Ghaziabad for Conferences and Product Launches",
-    date: "January 15, 2026",
-    readTime: "5 min read",
-    image: "/6thOurBlog3.jpg",
-    category: "Corporate",
-    excerpt: "Corporate gatherings demand professionalism, infrastructure, and seamless coordination. Finding the right corporate event venue in Ghaziabad can significantly influence the success of your event."
-  }
+  
 ];
 
 export default function BlogPage() {
