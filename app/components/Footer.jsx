@@ -18,9 +18,9 @@ const defaultQuickLinks = [
 ];
 
 const defaultEventsLinks = [
-  { label: "Corporate Events", href: "#" },
-  { label: "Cultural Events", href: "#" },
-  { label: "Social Events", href: "#" },
+  { label: "Corporate Events", href: "http://localhost:3000/occasions/corporate-events" },
+  { label: "Cultural Events", href: "http://localhost:3000/occasions/cultural-celebrations" },
+  { label: "Social Events", href: "http://localhost:3000/occasions/social-celebrations" },
 ];
 
 const defaultSocialLinks = [
@@ -33,14 +33,20 @@ const defaultContactInfo = [
   {
     icon: Phone,
     text: "+91 98100 42296 (Vivek mohan)",
+    type: "phone",
+    value: "+919810042296",
   },
   {
     icon: Mail,
     text: "tanushreegrandbanquets@gmail.com",
+    type: "email",
+    value: "tanushreegrandbanquets@gmail.com",
   },
   {
     icon: MapPin,
     text: "Lucknow 474 km Stone, NH 24, Mahagunpuram, Ghaziabad, Uttar Pradesh 201002",
+    type: "location",
+    value: "https://maps.google.com/?q=Tanushree+Grand+Banquet+Ghaziabad",
   },
 ];
 
@@ -56,6 +62,61 @@ export default function Footer({
   newsletterButtonText = "Subscribe",
   copyrightText = `© ${new Date().getFullYear()} Tanushree Convention & Banquet. All Rights Reserved.`,
 }) {
+  // Helper function to render contact item with proper link
+  const renderContactItem = (item, index) => {
+    const { icon: Icon, text, type, value } = item;
+    
+    if (type === "phone") {
+      // Clean phone number for links
+      const cleanPhone = value.replace(/[^0-9+]/g, '');
+      return (
+        <div key={index} className="flex items-start gap-3">
+          <Icon size={16} className="text-[#C8A165] mt-1 flex-shrink-0" />
+          <a
+            href={`tel:${cleanPhone}`}
+            className="hover:text-[#C8A165] transition duration-300"
+          >
+            {text}
+          </a>
+        </div>
+      );
+    } else if (type === "email") {
+      return (
+        <div key={index} className="flex items-start gap-3">
+          <Icon size={16} className="text-[#C8A165] mt-1 flex-shrink-0" />
+          <a
+            href={`mailto:${value}`}
+            className="hover:text-[#C8A165] transition duration-300"
+          >
+            {text}
+          </a>
+        </div>
+      );
+    } else if (type === "location") {
+      return (
+        <div key={index} className="flex items-start gap-3">
+          <Icon size={16} className="text-[#C8A165] mt-1 flex-shrink-0" />
+          <a
+            href={value}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-[#C8A165] transition duration-300"
+          >
+            {text}
+          </a>
+        </div>
+      );
+    } else {
+      // Fallback for any other type
+      return (
+        <div key={index} className="flex items-start gap-3">
+          <Icon size={16} className="text-[#C8A165] mt-1 flex-shrink-0" />
+          <span>{text}</span>
+        </div>
+      );
+    }
+  };
+
   return (
     <footer className="bg-[#0b0f0c] text-gray-300 border-t border-gray-800">
       {/* TOP SECTION */}
@@ -113,12 +174,7 @@ export default function Footer({
             Contact Info
           </h3>
           <div className="space-y-4 text-sm text-gray-400">
-            {contactInfo.map(({ icon: Icon, text }, idx) => (
-              <div key={idx} className="flex items-start gap-3">
-                <Icon size={16} className="text-[#C8A165] mt-1" />
-                <span>{text}</span>
-              </div>
-            ))}
+            {contactInfo.map((item, idx) => renderContactItem(item, idx))}
           </div>
         </div>
       </div>
