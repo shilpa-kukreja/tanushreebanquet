@@ -297,7 +297,7 @@ export default function BlogDetailPage() {
                 </div>
 
                 {/* Related Posts */}
-                <div>
+                {/* <div>
                   <h4 className="text-lg font-serif text-gray-900 mb-4">Related Articles</h4>
                   <div className="space-y-4">
                     {blog.relatedPosts.map((post) => (
@@ -320,7 +320,7 @@ export default function BlogDetailPage() {
                       </Link>
                     ))}
                   </div>
-                </div>
+                </div> */}
 
                 {/* Quick Links */}
                 <div className="bg-gray-50 rounded-2xl p-6">
