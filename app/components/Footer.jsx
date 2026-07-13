@@ -18,9 +18,9 @@ const defaultQuickLinks = [
 ];
 
 const defaultEventsLinks = [
-  { label: "Corporate Events", href: "http://localhost:3000/occasions/corporate-events" },
-  { label: "Cultural Events", href: "http://localhost:3000/occasions/cultural-celebrations" },
-  { label: "Social Events", href: "http://localhost:3000/occasions/social-celebrations" },
+  { label: "Corporate Events", href: "https://tanushreegrandbanquets.com/occasions/corporate-events" },
+  { label: "Cultural Events", href: "https://tanushreegrandbanquets.com/occasions/cultural-celebrations" },
+  { label: "Social Events", href: "https://tanushreegrandbanquets.com/occasions/social-celebrations" },
 ];
 
 const defaultSocialLinks = [
