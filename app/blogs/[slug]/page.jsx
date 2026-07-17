@@ -1,5 +1,6 @@
 "use client";
-
+import { useState } from "react";
+import Head from "next/head";
 import { useParams } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
@@ -29,7 +30,7 @@ const allBlogsData = {
 
       <p>Whether you're organizing a <a href="/occasions/corporate-events" class="text-[#b68c3d] underline decoration-2 underline-offset-2 hover:opacity-80 transition">corporate event</a>, a <a href="/occasions/social-celebrations" class="text-[#b68c3d] underline decoration-2 underline-offset-2 hover:opacity-80 transition">birthday celebration</a>, or planning a <a href="/occasions/wedding" class="text-[#b68c3d] underline decoration-2 underline-offset-2 hover:opacity-80 transition">wedding</a>, the right <strong>wedding banquet hall in Ghaziabad</strong> sets the tone for the entire experience. Let's break down what truly matters when selecting a venue.</p>
 
-      <h2>Why Choosing the Right Banquet Hall is Important</h2>
+     <h2 class="text-[#000000a7] text-[20px] font-semibold underline decoration-2 underline-offset-2 transition">Why Choosing the Right Banquet Hall is Important</h2>
       <p>A banquet hall isn't just a physical space—it's where memories are made. The venue you choose directly affects:</p>
       <ul>
         <li><strong>Guest experience</strong> - comfort, accessibility, and ambiance shape how guests remember your event</li>
@@ -39,7 +40,7 @@ const allBlogsData = {
       </ul>
       <p>This is why couples and event planners spend considerable time comparing a <strong>marriage hall in Ghaziabad</strong> before booking. A hasty decision can mean compromising on space, catering quality, or parking—all of which affect the day itself.</p>
 
-      <h2 id="features">Key Features to Look for in the Best Banquet Hall in Ghaziabad</h2>
+      <h2 id="features" class="text-[#000000a7] text-[20px] font-semibold underline decoration-2 underline-offset-2 transition">Key Features to Look for in the Best Banquet Hall in Ghaziabad</h2>
       <p>When evaluating a <a href="/blogs/best-banquet-hall-in-ghaziabad-complete-guide#features" class="text-[#b68c3d] underline decoration-2 underline-offset-2 hover:opacity-80 transition">luxury banquet hall in Ghaziabad</a>, here are the features that genuinely make a difference:</p>
 
       <h3>1. Spacious Indoor & Outdoor Areas</h3>
@@ -63,7 +64,7 @@ const allBlogsData = {
       <h3>7. Guest Capacity</h3>
       <p>Depending on your event size, choosing a hall that comfortably accommodates your guest list—without feeling cramped or overly vast—matters. Venues like <a href="/" class="text-[#b68c3d] underline decoration-2 underline-offset-2 hover:opacity-80 transition">Tanushree Grand Banquet & Farms</a>, which support 400–500 guests, strike a practical balance for mid-to-large gatherings.</p>
 
-      <h2>Types of Events You Can Host at Tanushree Grand Banquet & Farms</h2>
+      <h2 class="text-[#000000a7] text-[20px] font-semibold underline decoration-2 underline-offset-2 transition">Types of Events You Can Host at Tanushree Grand Banquet & Farms</h2>
       <p>One of the biggest advantages of choosing <a href="/" class="text-[#b68c3d] underline decoration-2 underline-offset-2 hover:opacity-80 transition">Tanushree Grand Banquet & Farms</a> is its versatility. The venue is designed to host a wide range of celebrations, including:</p>
       <ul>
         <li><a href="/occasions/wedding" class="text-[#b68c3d] underline decoration-2 underline-offset-2 hover:opacity-80 transition"><strong>Wedding Celebrations</strong></a> - a grand, elegant setting for the main ceremony</li>
@@ -77,7 +78,7 @@ const allBlogsData = {
       </ul>
       <p>This range makes it a genuinely multi-purpose <strong>reception venue in Ghaziabad</strong>, suited to nearly any occasion.</p>
 
-      <h2>Why Choose Tanushree Grand Banquet & Farms for Your Next Celebration?</h2>
+      <h2 class="text-[#000000a7] text-[20px] font-semibold underline decoration-2 underline-offset-2 transition">Why Choose Tanushree Grand Banquet & Farms for Your Next Celebration?</h2>
       <p>With so many options available, why do families and event planners consistently choose <a href="/" class="text-[#b68c3d] underline decoration-2 underline-offset-2 hover:opacity-80 transition">Tanushree Grand Banquet & Farms</a>?</p>
 
       <h3>Elegant, Spacious Setting</h3>
@@ -100,7 +101,7 @@ const allBlogsData = {
 
       <p>Whether you're planning a <a href="/occasions/wedding" class="text-[#b68c3d] underline decoration-2 underline-offset-2 hover:opacity-80 transition">wedding</a>, a <a href="/occasions/corporate-events" class="text-[#b68c3d] underline decoration-2 underline-offset-2 hover:opacity-80 transition">corporate event</a>, or a <a href="/occasions/social-celebrations" class="text-[#b68c3d] underline decoration-2 underline-offset-2 hover:opacity-80 transition">birthday party</a>, <strong>Tanushree Grand Banquet & Farms</strong> offers the elegance, space, and support needed to make the day memorable.</p>
 
-      <h2>Tips for Booking the Best Banquet Hall in Ghaziabad</h2>
+      <h2 class="text-[#000000a7] text-[20px] font-semibold underline decoration-2 underline-offset-2 transition">Tips for Booking the Best Banquet Hall in Ghaziabad</h2>
       <p>If you're actively comparing venues, keep these tips in mind:</p>
       <ul>
         <li><strong>Visit in person</strong> - photos rarely capture the true scale and ambiance of a space</li>
@@ -162,7 +163,7 @@ const allBlogsData = {
 
       <p>That's a mistake. The right <a href="/blogs/engagement-venue-in-ghaziabad-perfect-place-ring-ceremony" class="text-[#b68c3d] underline decoration-2 underline-offset-2 hover:opacity-80 transition">engagement venue in Ghaziabad</a> can turn a simple ring ceremony into a celebration guests still talk about years later, while the wrong one can leave even a well-planned event feeling flat. This guide covers why the venue matters, what to look for, and the common mistakes to avoid before booking.</p>
 
-      <h2>Why the Venue Matters for an Engagement Ceremony</h2>
+      <h2 class="text-[#000000a7] text-[20px] font-semibold underline decoration-2 underline-offset-2 transition">Why the Venue Matters for an Engagement Ceremony</h2>
       <p>An engagement ceremony may be shorter than a wedding, but it carries just as much emotional weight—often the first time both families formally celebrate together, and usually the first big function guests get invited to.</p>
 
       <ul>
@@ -172,7 +173,7 @@ const allBlogsData = {
         <li><strong>It reflects the significance of the occasion.</strong> Choosing a <strong>luxury engagement venue</strong> signals that this moment is being celebrated with the same care as the wedding itself, not treated as a lesser event.</li>
       </ul>
 
-      <h2 id="features">Features to Look for in an Engagement Venue</h2>
+      <h2 id="features" class="text-[#000000a7] text-[20px] font-semibold underline decoration-2 underline-offset-2 transition">Features to Look for in an Engagement Venue</h2>
       <p>Not every banquet hall is built the same way. Here's what to actually check before shortlisting an <strong>engagement function hall</strong>:</p>
 
       <h3>1. Guest capacity that matches your list</h3>
@@ -196,7 +197,7 @@ const allBlogsData = {
       <h3>7. On-ground event support</h3>
       <p>A venue with an experienced team handling logistics on the day takes pressure off the family, letting everyone enjoy the celebration instead of managing it.</p>
 
-      <h2>Tips for Choosing the Perfect Venue</h2>
+      <h2 class="text-[#000000a7] text-[20px] font-semibold underline decoration-2 underline-offset-2 transition">Tips for Choosing the Perfect Venue</h2>
       <p>Once you've shortlisted a few options, these tips help you make the final call:</p>
 
       <ul>
@@ -208,7 +209,7 @@ const allBlogsData = {
         <li><strong>Confirm timing and flexibility.</strong> Some venues have strict time slots; make sure the timing works for your ceremony structure, especially with multiple rituals planned.</li>
       </ul>
 
-      <h2>Common Mistakes to Avoid Before Booking</h2>
+      <h2 class="text-[#000000a7] text-[20px] font-semibold underline decoration-2 underline-offset-2 transition">Common Mistakes to Avoid Before Booking</h2>
       <p>Even well-organized families run into avoidable issues when booking an engagement venue. Watch out for these:</p>
 
       <ul>
@@ -220,7 +221,7 @@ const allBlogsData = {
         <li><strong>Finalizing without a written agreement.</strong> Verbal assurances about décor, catering, or inclusions can lead to misunderstandings—always get the details of your package in writing.</li>
       </ul>
 
-      <h2>Why Choose Tanushree Grand Banquet & Farms?</h2>
+      <h2 class="text-[#000000a7] text-[20px] font-semibold underline decoration-2 underline-offset-2 transition">Why Choose Tanushree Grand Banquet & Farms?</h2>
       <p>When it comes to hosting an engagement ceremony that truly feels grand, <a href="/" class="text-[#b68c3d] underline decoration-2 underline-offset-2 hover:opacity-80 transition">Tanushree Grand Banquet & Farms</a> brings together the practical and the beautiful in one venue.</p>
 
       <h3>Spacious indoor and outdoor options</h3>
@@ -278,12 +279,37 @@ const allBlogsData = {
 
 
 
+
 export default function BlogDetailPage() {
   const params = useParams();
   const slug = params.slug;
   const blog = allBlogsData[slug];
+  const [copied, setCopied] = useState(false);
 
-  // If blog not found
+  // Share function
+  const handleShare = async () => {
+    if (navigator.share) {
+      try {
+        await navigator.share({
+          title: blog.title,
+          text: blog.excerpt,
+          url: window.location.href,
+        });
+      } catch (err) {
+        // User cancelled
+      }
+    } else {
+      // Fallback: copy to clipboard
+      try {
+        await navigator.clipboard.writeText(window.location.href);
+        setCopied(true);
+        setTimeout(() => setCopied(false), 3000);
+      } catch (err) {
+        alert("Copy the URL from the address bar");
+      }
+    }
+  };
+
   if (!blog) {
     return (
       <>
@@ -292,9 +318,7 @@ export default function BlogDetailPage() {
           <div className="text-center">
             <h1 className="text-4xl font-serif text-[#b68c3d] mb-4">Blog Not Found</h1>
             <p className="text-gray-600 mb-8">The article you're looking for doesn't exist.</p>
-            <Link href="/blogs" className="text-[#b68c3d] hover:underline">
-              ← Back to all blogs
-            </Link>
+            <Link href="/blogs" className="text-[#b68c3d] hover:underline">← Back to all blogs</Link>
           </div>
         </main>
         <Footer />
@@ -302,8 +326,45 @@ export default function BlogDetailPage() {
     );
   }
 
+  // Build JSON-LD schema
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": blog.title,
+    "description": blog.excerpt,
+    "image": blog.image,
+    "datePublished": blog.date,
+    "author": {
+      "@type": "Organization",
+      "name": blog.author.name
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tanushree Grand Banquet & Farms",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://tanushreegrandbanquets.com/logo.png"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://tanushreegrandbanquets.com/blogs/${blog.slug}`
+    }
+  };
+
   return (
     <>
+      <Head>
+        <title>{blog.title} | Tanushree Grand Banquet</title>
+        <meta name="description" content={blog.excerpt} />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href={`https://tanushreegrandbanquets.com/blogs/${blog.slug}`} />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      </Head>
+
       <Navbar />
       <main className="bg-white text-gray-800 min-h-screen">
         {/* Breadcrumb */}
@@ -319,7 +380,7 @@ export default function BlogDetailPage() {
           </div>
         </div>
 
-        {/* Hero Section */}
+        {/* Hero – H1 is the blog title */}
         <section className="relative h-[55vh] min-h-[450px] w-full overflow-hidden">
           <Image
             src={blog.image}
@@ -359,10 +420,9 @@ export default function BlogDetailPage() {
           </div>
         </section>
 
-        {/* Content Section */}
+        {/* Content */}
         <section className="max-w-7xl mx-auto px-6 lg:px-12 py-12">
           <div className="grid lg:grid-cols-4 gap-8">
-            {/* Main Content */}
             <div className="lg:col-span-3">
               <motion.article
                 initial={{ opacity: 0, y: 20 }}
@@ -373,14 +433,18 @@ export default function BlogDetailPage() {
                 <div dangerouslySetInnerHTML={{ __html: blog.content }} />
               </motion.article>
 
-              {/* Share Section */}
+              {/* Share Section with functional share button */}
               <div className="mt-12 pt-8 border-t border-gray-200">
                 <div className="flex flex-wrap items-center justify-between gap-4">
                   <div className="flex items-center gap-4">
                     <span className="text-sm font-medium text-gray-600">Share this article:</span>
                     <div className="flex gap-2">
-                      <button className="p-2 bg-gray-100 rounded-full hover:bg-[#b68c3d] hover:text-white transition-colors">
-                        <Share2 size={18} />
+                      <button
+                        onClick={handleShare}
+                        className="p-2 bg-gray-100 rounded-full hover:bg-[#b68c3d] hover:text-white transition-colors"
+                        aria-label="Share"
+                      >
+                        {copied ? <Check size={18} /> : <Share2 size={18} />}
                       </button>
                       <button className="p-2 bg-gray-100 rounded-full hover:bg-[#b68c3d] hover:text-white transition-colors">
                         <Heart size={18} />
@@ -396,10 +460,10 @@ export default function BlogDetailPage() {
                 </div>
               </div>
 
-              {/* FAQs Section */}
+              {/* FAQs */}
               {blog.faqs && blog.faqs.length > 0 && (
                 <div className="mt-12 bg-gray-50 rounded-2xl p-8">
-                  <h3 className="text-3xl font-serif text-[#b68c3d] mb-6">Frequently Asked Questions</h3>
+                  <h2 className="text-3xl font-serif text-[#b68c3d] mb-6">Frequently Asked Questions</h2>
                   <div className="space-y-4">
                     {blog.faqs.map((faq, index) => (
                       <details key={index} className="group">
@@ -407,9 +471,7 @@ export default function BlogDetailPage() {
                           <span className="font-medium text-gray-800">{faq.question}</span>
                           <span className="text-[#b68c3d] group-open:rotate-180 transition-transform">▼</span>
                         </summary>
-                        <div className="p-4 text-gray-600 leading-relaxed">
-                          {faq.answer}
-                        </div>
+                        <div className="p-4 text-gray-600 leading-relaxed">{faq.answer}</div>
                       </details>
                     ))}
                   </div>
@@ -423,7 +485,7 @@ export default function BlogDetailPage() {
                     T
                   </div>
                   <div>
-                    <h4 className="text-xl font-semibold text-gray-900">{blog.author.name}</h4>
+                    <h3 className="text-xl font-semibold text-gray-900">{blog.author.name}</h3>
                     <p className="text-gray-600">{blog.author.role}</p>
                     <p className="text-gray-600 text-sm mt-1">{blog.author.bio}</p>
                   </div>
