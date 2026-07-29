@@ -29,6 +29,16 @@ const blogsData = [
     image: "/blog2.jpeg",
     category: "Venue Guide",
     excerpt: "An engagement is one of those milestones that sets the tone for everything that follows. This guide covers why the venue matters, what to look for, and the common mistakes to avoid before booking."
+  },
+  {
+    id: 3,
+    title: "Tips for Planning a Perfect Anniversary Celebration at a Banquet Hall",
+    slug: "tips-for-planning-a-perfect-anniversary-celebration-at-a-banquet-hall",
+    date: "April 10, 2026",
+    readTime: "6 min read",
+    image: "/blog/tips-for-planning.jpg",
+    category: "Venue Guide",
+    excerpt: "Anniversaries are more than just a date on the calendar- they're a celebration of love, commitment, and the memories built along the way. Whether you're marking your first year together or your fiftieth, finding the right anniversary celebration venue can turn a simple gathering into an unforgettable evening for you, your family, and your closest friends."
   }
 ];
 

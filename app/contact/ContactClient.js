@@ -128,7 +128,7 @@ const handleSubmit = async (e) => {
             <div className="mt-10 border-t pt-8 text-gray-700 space-y-4">
               <div>
                 <p className="font-semibold text-[#C8A165]">📍 Location</p>
-                <p>Lucknow 474 km Stone, NH 24, Mahagunpuram, Ghaziabad, Uttar Pradesh 201002</p>
+                <p>Tanushree Grand banquet and farms NH 24, near Mahagun Puram, opposite Mehrauli, Ghaziabad, Uttar Pradesh 201002</p>
               </div>
 
               <div>

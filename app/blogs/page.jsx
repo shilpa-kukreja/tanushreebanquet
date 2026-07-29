@@ -2,10 +2,10 @@ import BlogClient from './BlogClient';
 
 export const metadata = {
     title:
-    ' Blog | Tips from the Best Banquet Hall in Ghaziabad',
+    ' Wedding Planning Blog | Tanushree Farm & Palace Ghaziabad',
 
   description:
-    'Wedding & event planning tips from Tanushree Farm & Palace — the best banquet hall in Ghaziabad. Read expert advice on venues, decor, catering & more.',
+    'Explore expert wedding planning tips, décor ideas, venue guides and event inspiration from Tanushree Farm & Palace in Ghaziabad.',
 
   alternates: {
     canonical: 'https://tanushreegrandbanquets.com/blogs',

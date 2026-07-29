@@ -44,7 +44,7 @@ const defaultContactInfo = [
   },
   {
     icon: MapPin,
-    text: "Lucknow 474 km Stone, NH 24, Mahagunpuram, Ghaziabad, Uttar Pradesh 201002",
+    text: "Tanushree Grand banquet and farms NH 24, near Mahagun Puram, opposite Mehrauli, Ghaziabad, Uttar Pradesh 201002",
     type: "location",
     value: "https://maps.google.com/?q=Tanushree+Grand+Banquet+Ghaziabad",
   },

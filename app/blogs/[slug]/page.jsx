@@ -20,7 +20,7 @@ export async function generateMetadata({ params }) {
 
   return {
     title: `${blog.title} | Tanushree Grand Banquet`,
-    description: blog.excerpt,
+    description: `${blog.description}`,
     robots: {
       index: true,
       follow: true,
